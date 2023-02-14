@@ -1,0 +1,67 @@
+mudar a extensao do App.js para App.tsx
+criar aquivo tsconfig.json
+npx expo start
+
+*************************************************************
+Installation NativeBase - components
+https://docs.nativebase.io/install-expo
+npm install native-base -- force
+expo install react-native-svg@12.1.1
+expo install react-native-safe-area-context@3.3.2
+
+fonts
+https://docs.expo.dev/guides/using-custom-fonts/#using-a-google-font
+npx expo install expo-font @expo-google-fonts/roboto
+
+biblioteca de img svg
+https://github.com/kristerkari/react-native-svg-transformer
+
+autenticacao
+https://docs.expo.dev/versions/latest/sdk/auth-session/#what--authexpoio--does-for-you
+npx expo install expo-auth-session expo-random
+https://docs.expo.dev/versions/latest/sdk/webbrowser/#handling-deep-links-from-the-webbrowser
+npx expo install expo-web-browser
+
+configuracao de autenticacao no google
+https://console.cloud.google.com/apis/credentials/oauthclient?previousPage=%2Fapis%2Fcredentials%3ForganizationId%3D0%26project%3Dsplendid-sonar-367810&organizationId=0&project=splendid-sonar-367810
+https://docs.expo.dev/guides/authentication/
+URIs (Authorized JavaScript origins): https://auth.expo.io
+Authorized redirect URIs: https://auth.expo.io/@your-username/your-project-slug
+
+login no expo
+npx expo login
+
+verificar se esta logado
+expo whoami
+https://auth.expo.io/@borges10002/nlwcopamobile
+
+biblioteca de icon
+https://phosphoricons.com/
+npm install --save phosphor-react-native
+
+react natigation
+https://reactnavigation.org/docs/getting-started
+npm install @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+
+https://reactnavigation.org/docs/tab-based-navigation
+npm install @react-navigation/bottom-tabs
+
+biblioteca para pega codigo do pais
+npm i country-list
+npm i --save-dev @types/country-list
+
+biblioteca retorna a bandeira baseado no codigo
+npm install --save react-native-country-flag
+
+biblioteca de formata data
+https://day.js.org/docs/en/installation/typescript
+npm install dayjs
+formatar para portugues
+import ptBR from 'dayjs/locale/pt-br';
+
+biblioteca para fucionar o .env no react native 
+npm i dotenv babel-plugin-inline-dotenv
+executa assim apos estalar-> npx expo start --clear
+
+atualizacao

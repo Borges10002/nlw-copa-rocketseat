@@ -1,0 +1,44 @@
+Adcionar typescript no projeto
+npm i typescript -D 
+
+criar setap do typescript
+npx tsc -init
+
+framework
+npm i fastify
+npm i @fastify/cors
+
+automatiza execucao do typescript
+npm i tsx -D
+
+
+npm i prisma -D
+npm i @prisma/client
+
+banco sqllite
+npx prisma init --datasource-provider sqlite
+
+criar as tabela migrate
+npx prisma migrate dev
+
+executar o seed do prisma 
+npx prisma db seed
+
+visualizar banco de dados pelo navegador
+npx prisma studio
+
+diagrama
+npm i -D prisma-erd-generator @mermaid-js/mermaid-cli
+executa
+npx prisma generate
+
+biblioteca de validacao
+npm i zod
+
+biblioteca para criar ID autoamticamente
+npm i short-unique-id
+
+token
+npm i @fastify/jwt
+
+atualizacao
